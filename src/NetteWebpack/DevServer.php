@@ -13,9 +13,9 @@ final class DevServer
 
 	public const URL = 'url';
 
-	private bool $enabled;
+	public bool $enabled;
 
-	private string $url;
+	public string $url;
 
 	/**
 	 * @param mixed[] $devServer
