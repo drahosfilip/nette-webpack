@@ -1,1 +1,1 @@
-<script n:foreach="$chunks as $key => $chunk" src="{$chunk}" n:attr="type => $contentType" data-naja-script-id="script-{$key}"></script>
+<script n:foreach="$chunks as $key => $chunk" src="{$chunk}" n:attr="type => $contentType" data-naja-script-id="script-{sha1($chunk)}"></script>
